@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sal Blog</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="navigation"><a href="/">HomePage</a></li>
+                <li class="navigation"><a href="/dashboard">Dashboard</a></li>
+                <li class="navigation"> 
+                    {{#if loggedIn}}
+                    <button id="logout" class="btn">Logout</button>
+                    {{else}}
+                    <a href="/login">Login</a>
+                    {{/if}}
+                </li>
+            </ul>
+        </nav>
+        <h1>Sal's Blog!</h1>
+    </header>
+
+    <br>
+
+    <main>
+        {{{ body }}}
+    </main>
+    </div>
+
+    {{!-- {{#if loggedIn}}
+    <script src="/js/logout.js"></script>
+    {{/if}} --}}
+
+</body>
+
+</html>

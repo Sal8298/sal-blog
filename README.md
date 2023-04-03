@@ -31,9 +31,9 @@ The MIT license is being used for this application.
 
 ## Colaborators
 
-https://github.com/mjgiannelli/tech-blog
-https://github.com/garrettWinter/online-movie-store -- My project 2
 https://github.com/garrettWinter
+https://github.com/garrettWinter/online-movie-store -- My project 2
+https://github.com/mjgiannelli/tech-blog
 
  ## Contribution
   * To contribute you may reach me via email at sal@email.com.
