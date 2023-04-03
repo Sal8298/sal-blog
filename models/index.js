@@ -9,12 +9,10 @@ Post.belongsTo(User, {
     foreignKey: 'post_user_id',
 });
 
-// Comments to Users table associations to connect a User to a Comment
 User.hasMany(Comment, {
     foreignKey: 'comment_user_id',
 });
 
-// Posts to Comments table associations to connect a post to a comment
 Comment.hasOne(Post, {
     foreignKey: 'post_id',
 });
@@ -22,7 +20,6 @@ Post.hasMany(Comment, {
     foreignKey: 'post_id',
 });
 
-// Comments to User table associations to connect a post to a comment
 Comment.belongsTo(User, {
     foreignKey: 'comment_user_id',
 });
