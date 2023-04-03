@@ -15,10 +15,7 @@ if (process.env.JAWSDB_URL) {
             // Decides which port localhost connected to.
             host: 'localhost',
             dialect: 'mysql',
-            dialectOptions: {
-            decimalNumbers: true,
-            },
-            port: 3306,
+            port: 3306
         }
     );
 }
